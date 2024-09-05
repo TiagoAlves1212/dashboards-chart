@@ -35,3 +35,18 @@ body {
     background: #251c35;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.8)
 }
+
+@media (max-width: 405px) {
+
+    .container {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 50px;
+    }
+
+    .container2 {
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+}
